@@ -62,14 +62,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Pre requirement
 ## jika error
-composer install --no-scripts
-php -r "file_exists('.env') || copy('.env.example', '.env');"
-php artisan key:generate
-php artisan cache:clear
-php artisan view:clear
-php artisan package:discover
+- composer install --no-scripts
+- php -r "file_exists('.env') || copy('.env.example', '.env');"
+- php artisan key:generate
+- php artisan cache:clear
+- php artisan view:clear
+- php artisan package:discover
 ## 
 
 
-npm install
-npm install vuex vue-router vue axios vue-material cross-env --save
+- npm install
+- npm install vuex vue-router vue axios vue-material cross-env --save

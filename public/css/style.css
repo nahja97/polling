@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+.loading {
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#profile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+    z-index: 1;
+}
+
+.main-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.login-container {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: vollkorn;
+    color: white;
+}
+
+img.logo-login {
+    height: 50px;
+    display: unset;
+}
+
+.login-box {
+    height: 80%;
+    width: 40%;
+    background-color: #21252994;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+@media screen and (max-width: 1024px) {
+    .login-box {
+        width: 80%;
+    }
+  }
+
+.login-box a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    text-transform: none;
+    height: auto;
+}
+
+.login-box-body {
+    width: 100%;
+    position: relative;
+}
+
+.form-control {
+    background-color: #a7a7a733 !important;
+    -webkit-box-shadow: 0 0 0 30px #a7a7a733 inset !important;
+    width: 90%;
+    position: relative;
+    margin: 0;
+    padding: 5px;   margin: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.8; /* Firefox */
+}
+
+.form-group {
+    margin: 5px;
+}
+
+.checkbox {
+    margin: 10px;
+}
+
+.btn-submit {
+    /* padding: 15px 50px; */
+    background-color: #a6661aad !important;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: white !important;
+    cursor: pointer;
+    font-family: vollkorn !important;
+    /* font-size: 16px; */
+}
+
+.list-participants {
+    max-height: 80vh;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #a7a7a733 inset !important;
+    transition: background-color 5000s ease-in-out 0s;
+    /* font-size: 16px !important; */
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: white !important;
+    /* font-size: 16px !important; */
+}

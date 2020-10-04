@@ -1,0 +1,2 @@
+[04-Oct-2020 19:30:32 UTC] PHP Warning:  require(/home/reddoned/laravue-polling.reddonedigital.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/reddoned/laravue-polling.reddonedigital.com/public/index.php on line 24
+[04-Oct-2020 19:30:32 UTC] PHP Fatal error:  require(): Failed opening required '/home/reddoned/laravue-polling.reddonedigital.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/reddoned/laravue-polling.reddonedigital.com/public/index.php on line 24
